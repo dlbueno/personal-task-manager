@@ -1,0 +1,93 @@
+@import '@radix-ui/colors/black-alpha.css';
+@import '@radix-ui/colors/violet.css';
+@import '@radix-ui/colors/mauve.css';
+
+
+.Button {
+display: inline-flex;
+align-items: center;
+justify-content: center;
+border-radius: 4px;
+font-size: 15px;
+line-height: 1;
+font-weight: 500;
+height: 35px;
+padding-left: 5px;
+padding-right: 5px; 
+
+}
+  
+.Button:hover {
+  background-color: blue
+}
+
+.Urgencies{
+  display: inline-flex;
+  align-items:normal;
+  justify-content: center;
+  border-radius: 4px;
+  font-size: 15px;
+  line-height: 1;
+  font-weight: 500;
+  height: 35px;
+  padding-left: 5px;
+  padding-right: 5px; 
+  gap: 15px;
+  padding-bottom: 1px;
+  padding-top: 6px;
+  background-color: #db4ba0;
+  color: white;
+  box-shadow: 0 2px 10px var(--black-a7);
+}
+.padding{
+display: inline-flex;
+align-items: center;
+justify-content: center;
+border-radius: 4px;
+  font-size: 15px;
+  padding-left: 5px;
+  padding-right: 5px; 
+  padding-top: 5px;
+  padding-bottom: 25px;
+  gap: 15px;
+  line-height: 1; 
+
+}
+
+
+/* changing the left side of TaskName/description/urgency/duedate */
+.formediting{
+  display: flex;
+  flex-direction:row;
+  margin: 2% 0;
+  max-width: 300px;
+  align-content:center;
+  padding: 5px;
+  width: 50%;
+}
+
+.b-2{
+display: block;
+box-shadow: 5px 2px 15px #db4ba0;
+padding-right: 30px;
+}
+
+
+.errors{
+  display: flex;
+  flex-direction:row;
+  margin: 2% 100;
+  max-width: 300px;
+  align-content:center;
+  padding: 8px;
+  width: 9000000%;
+} 
+
+.form-label{
+  display: grid;
+  width: 100px;
+  align-items: start;
+  justify-content: space-between;
+  grid-template-columns: 130px 130px 130px;
+}
+
